@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elevate Labs - Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="nav-container">
+        <div class="logo">Elevate Labs</div>
+        <button class="theme-toggle" onclick="toggleTheme()">🌗</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="hero">
+      <h1 class="fade-in">Welcome to Your Future</h1>
+      <p class="fade-in">Join us and start building your dream projects today.</p>
+      <a href="#" class="cta-button fade-in">Get Started</a>
+    </main>
+
+    <footer>
+      <p>Connect with me:</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/bhagwan-arsewad-0bb7b5279/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/bhagwan388" target="_blank">GitHub</a> |
+        <a href="https://www.instagram.com/bhagwan_045/" target="_blank">Instagram</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      html.setAttribute("data-theme", html.dataset.theme === "dark" ? "light" : "dark");
+    }
+  </script>
+</body>
+</html>
+
