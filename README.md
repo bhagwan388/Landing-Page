@@ -37,11 +37,12 @@ Build a clean, responsive landing page using only HTML & CSS. The layout must in
 - Theme toggle (Light/Dark mode)
 - Smooth fade-in animations
 - Clean modern layout with responsive design
-
----
+  
+---  
+### 🔼 Preview
 ![image](https://github.com/user-attachments/assets/1a8bf452-96e2-4025-bcc6-141cb4c5305c)
 
-
+---
 ### 📚 Outcome
 By completing this task, I have demonstrated:
 - HTML5 and semantic structure
