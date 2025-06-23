@@ -39,6 +39,8 @@ Build a clean, responsive landing page using only HTML & CSS. The layout must in
 - Clean modern layout with responsive design
 
 ---
+![image](https://github.com/user-attachments/assets/1a8bf452-96e2-4025-bcc6-141cb4c5305c)
+
 
 ### 📚 Outcome
 By completing this task, I have demonstrated:
